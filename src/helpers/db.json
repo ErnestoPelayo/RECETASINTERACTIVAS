@@ -1,0 +1,166 @@
+{
+    "categories": [
+      { "id": 1, "name": "Postres" },
+      { "id": 2, "name": "Platos principales" },
+      { "id": 3, "name": "Ensaladas" },
+      { "id": 4, "name": "Bebidas" }
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Pastel de Chocolate",
+        "category": 1,
+        "ingredients": [
+          "200g de chocolate oscuro",
+          "200g de azúcar",
+          "150g de harina",
+          "3 huevos",
+          "1 cucharadita de polvo para hornear"
+        ],
+        "instructions": [
+          "Precalienta el horno a 180°C.",
+          "Derrite el chocolate a baño maría.",
+          "Mezcla los huevos con el azúcar hasta obtener una consistencia cremosa.",
+          "Agrega el chocolate derretido, la harina y el polvo para hornear.",
+          "Vierte la mezcla en un molde y hornea por 30 minutos."
+        ],
+        "image": "https://via.placeholder.com/300x200?text=Pastel+de+Chocolate"
+      },
+      {
+        "id": 2,
+        "name": "Pollo al Horno",
+        "category": 2,
+        "ingredients": [
+          "1 pollo entero",
+          "2 dientes de ajo",
+          "50ml de aceite de oliva",
+          "Sal y pimienta al gusto",
+          "Hierbas provenzales"
+        ],
+        "instructions": [
+          "Precalienta el horno a 200°C.",
+          "Lava y seca el pollo.",
+          "Unta el pollo con aceite de oliva, ajo picado, sal, pimienta y hierbas.",
+          "Hornea el pollo durante 1 hora y media, volteándolo a la mitad del tiempo."
+        ],
+        "image": "https://via.placeholder.com/300x200?text=Pollo+al+Horno"
+      },
+      {
+        "id": 3,
+        "name": "Ensalada César",
+        "category": 3,
+        "ingredients": [
+          "1 lechuga romana",
+          "50g de crutones",
+          "30g de queso parmesano",
+          "2 filetes de anchoa",
+          "Aderezo César"
+        ],
+        "instructions": [
+          "Lava y corta la lechuga.",
+          "Coloca la lechuga en un bol junto con los crutones y el queso.",
+          "Agrega el aderezo César y mezcla bien.",
+          "Sirve inmediatamente."
+        ],
+        "image": "https://via.placeholder.com/300x200?text=Ensalada+Cesar"
+      },
+      {
+        "id": 4,
+        "name": "Limonada Refrescante",
+        "category": 4,
+        "ingredients": [
+          "4 limones",
+          "1 litro de agua",
+          "100g de azúcar",
+          "Hojas de menta (opcional)"
+        ],
+        "instructions": [
+          "Exprime el jugo de los limones.",
+          "En un jarro, mezcla el jugo con el agua y el azúcar.",
+          "Remueve hasta que el azúcar se disuelva completamente.",
+          "Sirve con hielo y hojas de menta si lo deseas."
+        ],
+        "image": "https://via.placeholder.com/300x200?text=Limonada"
+      },
+      {
+        "id": 5,
+        "name": "Tacos de Carne Asada",
+        "category": 2,
+        "ingredients": [
+          "500g de carne de res",
+          "Tortillas de maíz",
+          "1 cebolla picada",
+          "Cilantro fresco",
+          "Salsa de tu preferencia",
+          "Limón"
+        ],
+        "instructions": [
+          "Marina la carne con sal, pimienta y tus especias favoritas.",
+          "Asa la carne hasta que esté bien cocida y córtala en trozos pequeños.",
+          "Calienta las tortillas y agrega la carne.",
+          "Sirve con cebolla, cilantro, salsa y unas gotas de limón."
+        ],
+        "image": "https://via.placeholder.com/300x200?text=Tacos+de+Carne+Asada"
+      },
+      {
+        "id": 6,
+        "name": "Sopa de Tomate",
+        "category": 2,
+        "ingredients": [
+          "1kg de tomates maduros",
+          "1 cebolla",
+          "2 dientes de ajo",
+          "500ml de caldo de pollo",
+          "Aceite de oliva",
+          "Sal y pimienta al gusto"
+        ],
+        "instructions": [
+          "Sofríe la cebolla y el ajo picados en aceite de oliva.",
+          "Añade los tomates troceados y cocina por 10 minutos.",
+          "Agrega el caldo de pollo y cocina por 15 minutos más.",
+          "Licúa la mezcla hasta obtener una sopa suave.",
+          "Sazona con sal y pimienta al gusto."
+        ],
+        "image": "https://via.placeholder.com/300x200?text=Sopa+de+Tomate"
+      },
+      {
+        "id": 7,
+        "name": "Smoothie de Frutas Tropicales",
+        "category": 4,
+        "ingredients": [
+          "1 mango maduro",
+          "1 banana",
+          "200ml de jugo de naranja",
+          "Hielo"
+        ],
+        "instructions": [
+          "Pela y corta el mango y la banana.",
+          "Coloca las frutas en la licuadora junto con el jugo de naranja y el hielo.",
+          "Licúa hasta obtener una textura homogénea.",
+          "Sirve frío y disfruta."
+        ],
+        "image": "https://via.placeholder.com/300x200?text=Smoothie+Tropical"
+      },
+      {
+        "id": 8,
+        "name": "Pizza Margarita",
+        "category": 2,
+        "ingredients": [
+          "1 base de pizza",
+          "200g de queso mozzarella",
+          "100g de salsa de tomate",
+          "Hojas de albahaca fresca",
+          "Aceite de oliva"
+        ],
+        "instructions": [
+          "Precalienta el horno a 220°C.",
+          "Unta la base de pizza con la salsa de tomate.",
+          "Agrega el queso mozzarella y las hojas de albahaca.",
+          "Hornea durante 10-15 minutos o hasta que el queso se derrita.",
+          "Rocía con aceite de oliva antes de servir."
+        ],
+        "image": "https://via.placeholder.com/300x200?text=Pizza+Margarita"
+      }
+    ]
+  }
+  
