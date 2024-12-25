@@ -1,50 +1,22 @@
-# React + TypeScript + Vite
+# Requerimientos Funcionales - Aplicación de Recetas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Página Principal
 
-Currently, two official plugins are available:
+- **Lista de recetas destacadas**: La página debe mostrar una selección de recetas destacadas para atraer la atención del usuario.
+- **Barra de búsqueda**: Debe permitir a los usuarios buscar recetas por nombre o ingredientes específicos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Página de Receta Individual
 
-## Expanding the ESLint configuration
+- **Imagen destacada**: Cada receta debe incluir una imagen principal que represente el plato.
+- **Lista de ingredientes**: Mostrar todos los ingredientes necesarios para la receta.
+- **Instrucciones paso a paso**: Explicar el procedimiento detallado para preparar la receta.
+- **Botón para guardar como favorita**: Permitir que los usuarios marquen recetas como favoritas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Página de Favoritas
 
-- Configure the top-level `parserOptions` property like this:
+- **Recetas favoritas**: Mostrar todas las recetas que los usuarios han marcado como favoritas.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Interacción Dinámica
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Estado global**: Implementar un manejo de estado global utilizando Context API o Redux para gestionar las recetas favoritas.
+- **Animación**: Incluir una animación visual al marcar o desmarcar una receta como favorita para mejorar la experiencia del usuario.
